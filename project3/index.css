@@ -1,0 +1,188 @@
+/* Navbar Starting */
+.navbar {
+        position: absolute;
+        display: flex;
+        background: url(study.jpg) center center/cover no-repeat;
+        width: 100%;
+        height: 652px;
+}
+
+.logo img {
+        height: 60px;
+        width: 60px;
+        border-radius: 10000px;
+        left: 28px;
+        filter: invert(100%);
+        margin: 0px 17px;
+}
+
+.menu li {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        left: 384px;
+}
+
+.menu li a {
+        text-decoration: none;
+        color: whitesmoke;
+        margin: 10px 10px;
+        font-size: 20px;
+        margin: 20px 20px;
+}
+
+.menu li a:hover {
+        text-decoration: underline;
+}
+
+.navbar input {
+        position: absolute;
+        left: 1300px;
+        top: 13px;
+        height: 30px;
+        width: 158px;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-size: 15px;
+        text-align: center;
+}
+
+.content_img {
+        color: white;
+        position: relative;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px;
+        left: 416px;
+        top: 62px;
+}
+
+.con {
+        margin: 20px 20px;
+        display: block;
+        text-align: center;
+        justify-content: center;
+}
+
+.content_img h1 {
+        font-size: 24px;
+        font-family: cursive;
+}
+
+.content_img .btn {
+        height: 37px;
+        width: 114px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 20px;
+        cursor: pointer;
+        filter: invert(100%);
+}
+
+/* Navbar End */
+
+/* Content Part */
+#main_content {
+        display: inline-block;
+        position: relative;
+        top: 653px;
+        height: 441px;
+        width: 1518px;
+}
+
+.heading {
+        font-size: 60px;
+        text-align: center;
+}
+
+.content {
+        width: 100%;
+        height: 200px;
+        display: inline;
+}
+
+.content_writing {
+        display: inline-block;
+        position: absolute;
+        width: 954px;
+
+}
+
+.content_writing h1 {
+        font-size: 40px;
+        margin: 23px 53px;
+        display: block;
+        position: relative;
+}
+
+.content_writing p {
+        font-size: 20px;
+        margin: 18px 16px;
+        padding: 6px 5px;
+        display: block;
+        position: relative;
+}
+
+.content_img {
+        display: inline;
+        position: absolute;
+}
+
+.content_img img {
+        height: 248px;
+        width: 347px;
+        display: block;
+        position: relative;
+        margin: 9px 635px;
+        border: 3px solid black;
+        box-shadow: 13px 9px 18px -10px black
+}
+/* Content part ends */
+/* 
+Form Start */
+
+.form {
+        height: 494px;
+        width: 96%;
+        background-color: black;
+        margin: 591px 1px;
+        position: absolute;
+
+}
+
+.form h1 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+}
+
+form {
+        /* display: block; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+
+form input {
+        margin: 32px 613px;
+        height: 20px;
+        width: 251px;
+        display: block;
+        text-align: center;
+        border: 6px solid white;
+        font-size: 20px;
+}
+
+form .btn {
+        height: 29px;
+        width: 82px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+}
+/* form End */
